@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Roboto&display=swap');
+
+
+
+:root{
+    --primary-color: #155e75;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.contener{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.container-center{
+    max-width: 600px;
+    margin:auto;
+}
+
+.link{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem 0.5rem;
+}
+.secondery-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    border : 1px solid ;
+ 
+}
+
+.list-non-bullet{
+    list-style: none;
+    margin: auto;
+    
+}
+
+.list-item-inline{
+    display:inline;
+    padding: 0rem 0.5rem;
+    color: white;
+}
+
+
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    font-family: 'Antonio', sans-serif;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+    font-family: 'Antonio'
+    
+
+}
+
+.hero-img {
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.section{
+    padding:1rem;
+}
+.section h1{
+    text-align: center;
+    
+}
+.ow{
+    background-color:#67e8f9;
+    padding:1rem;
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.pad{
+    padding-bottom: 2rem;
+}
+.pcolor{
+    color: var(--primary-color);
+}
+.hover-3 {
+    --c: no-repeat linear-gradient(#1095c1 0 0);
+    background: 
+      var(--c)  calc(-101% + var(--p,0%)) 100% / 50.1% var(--p,.08em),
+      var(--c)  calc( 201% - var(--p,0%)) 0    / 50.1% var(--p,.08em);
+    transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+  }
+  .hover-3:hover {
+    --p: 101%;
+    --t: 0.3s;
+  }
+  
+  h3 {
+    font-family: system-ui, sans-serif;
+    font-size: 3rem;
+    margin:0;
+    cursor: pointer;
+    padding: 0 .07em;
+  }
